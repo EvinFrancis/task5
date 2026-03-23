@@ -1,0 +1,53 @@
+.add-book {
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-book h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-book form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-book input,
+.add-book textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-book textarea {
+  resize: none;
+  height: 80px;
+}
+
+.add-book input:focus,
+.add-book textarea:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.add-book button {
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-book button:hover {
+  background: #45a049;
+}
